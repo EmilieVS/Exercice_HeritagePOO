@@ -1,10 +1,10 @@
 public class Vaisseau {
 
-    String name;
-    String type;
-    Double size;
+    private String name;
+    private String type;
+    private Double size;
 
-    public Vaisseau (String name, String type, Double size){
+    protected Vaisseau (String name, String type, Double size){
     this.name = name;
     this.type = type ;
     this.size = size;

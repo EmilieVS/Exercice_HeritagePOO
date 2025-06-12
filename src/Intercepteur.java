@@ -1,7 +1,7 @@
 public class Intercepteur extends Vaisseau{
-    Integer canon;
+    private Integer canon;
 
-    public Intercepteur (String name, String type, Double size, Integer canon){
+    protected Intercepteur (String name, String type, Double size, Integer canon){
         super(name,type,size);
         this.canon = canon;
     }

@@ -1,7 +1,7 @@
 public class Croiseur extends Vaisseau{
-    Integer placesCapacity;
+    private Integer placesCapacity;
 
-    public Croiseur(String name, String type, Double size, Integer placesCapacity) {
+    protected Croiseur(String name, String type, Double size, Integer placesCapacity) {
         super(name,type,size);
         this.placesCapacity = placesCapacity;
     }
